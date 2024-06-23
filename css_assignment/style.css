@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 24, 24, 0.7) url(./../asset/home-interior.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.nav-bar{
+    margin: 0px auto;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+   
+    
+}
+ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: rgb(5, 194, 241);
+}
+ul li{
+    list-style: none;
+}
+.nav-logo{
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: larger;
+    margin: 40px;
+}
+.nav-menu{
+    width: 60%;
+}
+/* --------------------Content-------------------------- */
+
+.content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 30px;
+}
+.content-para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+}
+.btn-left{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background: none;
+    color: white;
+    background-color: rgb(5, 194, 241);
+}
+.btn-right{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background: none;
+    color: white;
+    border: 1px solid rgb(5, 194, 241);
+}
+.btn-right:hover{
+    background-color: rgb(5, 194, 241);
+}
