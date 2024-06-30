@@ -114,7 +114,8 @@ input::placeholder{
 select{
     background: rgb(228, 226, 226);
     padding: 4px;
-    margin: -2px;
+    /* margin: 1px; */
+    border-radius: 3px;
     
 }
 .gender{
