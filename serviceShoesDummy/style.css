@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 3000px; */
+}
+.header{
+   
+    background-image: url(./ndure-banner-dimensions.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+
+}
+.navbar{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.logoImg{
+    width: 280px;
+}
+.navMenuIcon{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline;
+    float: left;
+}
+
+.navMenu{
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.navMenu ul{
+    display: flex;
+    gap: 15px;
+    
+}
+.navMenu ul li{
+    list-style: none;
+}
+.searchBar{
+    width: 100px;
+}
+.search{
+    font-size: 25px;
+    font-weight: bold;
+}
+.searchIcon{
+    display: none;
+}
+.navCartIcon{
+    width: 30px;
+    height: 30px;
+    margin: 0px 40px 0px 30px;
+}
+/* ------------------------VEDIO--------------------------- */
+
+.video video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* ------------------------VEDIO--------------------------- */
+.lastImg{
+    background-image: url(./b2-3.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* ------------------------Footer--------------------------- */
+footer{
+    height: 100vh;
+}
+.email{
+    position: relative;
+    top: 80px;
+    left: 40%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.email p{
+    font-size: smaller;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.user-input-wrp {
+	position: relative;
+	width: 40%;
+}
+.user-input-wrp .inputText{
+	width: 50%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #777;
+ 	box-shadow: none !important;
+}
+.user-input-wrp .inputText:focus{
+	border-color: rgb(29, 29, 29);
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+    font-size: 20px;
+	top: 5px;
+	left: 10px;
+	transition: 0.2s ease all;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 0px;
+	left: 10px;
+	font-size: 13px;
+	opacity: 1;
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 30%;
+}
+.footerMenu ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: rgb(151, 156, 156);
+}
+.topLi{
+    margin-bottom: 30px !important;
+    font-weight: bold;
+    color: black !important;
+}
+
+
+/* ------------------------Media query-------------------------------- */
+
+
+@media only screen and (max-width: 767px) {
+    .search{
+        display: none;
+    }
+    .searchIcon{
+        display: inline;
+        width: 30px;
+        height: 30px;
+    }
+    .navMenu{
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logoImg{
+        width: 200px;
+    }
+    .navMenuIcon{
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+        
+    }
+    .navCartIcon{
+        width: 30px;
+        height: 30px;
+        margin: 0px 5px 0px 10px;
+    }
+    
+  }
+
+
+
+  @media only screen and (max-width: 480px) {
+    .navMenu{
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logoImg{
+        width: 150px;
+    }
+    .navCartIcon{
+        width: 20px;
+        height: 20px;
+        margin: 0px 5px 0px 5px;
+    }
+    .searchIcon{
+        width: 20px;
+        height: 20px;
+    }
+    .belowLi{
+        display: none;
+    }
+    .footerMenu{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+  }
+

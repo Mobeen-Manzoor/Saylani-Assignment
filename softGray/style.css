@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+}
+/* .navMenu{
+    display: flex;
+    justify-content: space-around;
+} */
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navItems li{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    margin: 12px;
+}
+li.number{
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+
+
+.front{
+    width: 100%;
+    height: 500px;
+    background: rgba(109, 101, 101, 0.7) url(./download.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.creativeSolutions{
+    /* width: 40%; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.creativeSolutions p{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+.creativeSolutions h1{
+    font-size: 50px;
+    color: white;
+}
+
+
+.services{
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.serviceImg{
+    width: 100px;
+    border-radius: 50%;
+}
+.sameServiceStyling{
+    text-align: center;
+}
+
+.sameServiceStyling ul{
+    list-style: none;
+}
+
+
+.sameServiceStyling ul li{
+    margin: 20px 10px;
+}
+
+
+.sameServiceStyling ul li span{
+    text-align: center;
+}
+
+
+/* ---------------------view More------------------- */
+.tableDiv{
+
+    background: #aaa9a9;
+    height: 900px;
+}
+.table{
+    
+    position: relative;
+    left: 180px;
+    top: 100px;
+
+}
+.viewMoreText{
+    margin-right: 80px;
+}
+
+.viewMoreMain{
+    width: 1100px;
+    height: 350px;
+    margin: 0px 40px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.viewMoreHeadline{
+    margin: 20px 0px;
+    font-size: larger;
+}
+
+.viewMorePara{
+    font-size: larger;
+    margin: 10px 0px;
+    width: 500px;
+    margin: 15px 0px;
+}
+.viewMoreBtn{
+    padding: 8px 25px;
+    margin: 20px 0px;
+}
+.viewMoreImg{
+    width: 400px;
+}
+
+.viewMoreImgs{
+    width: 340px;
+    
+    
+}
+.viewMoreSection{
+    background-color: rgb(197, 201, 201);
+}
+.imgsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* .below{
+    text-align: center;
+} */
+.imgs{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
