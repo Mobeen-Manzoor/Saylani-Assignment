@@ -131,3 +131,10 @@ nav{
     justify-content: space-between;
 
  }
+
+ .accordion-item{
+    background-color: #B9FF66 !important;
+ }
+ .accordion-button{
+    background-color: #B9FF66 !important;
+ }
