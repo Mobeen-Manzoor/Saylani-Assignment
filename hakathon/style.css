@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 30px;
+    margin-top: 8px;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-item{
+    display: block;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+.last-btn{
+    padding: 15px;
+    border: 1px solid #B9FF66;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+}
+.last-btn:hover{
+    background-color:#B9FF66;
+    border: none;
+    
+}
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .nav-item{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    
+.hero-section{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+nav{
+    
+    justify-content: space-between;
+    
+}
+.below-hero{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.below-hero h1{
+    
+    margin-bottom: 20px;
+}
+
+}
+
+
+/* ---------------------Hero sectuin--------------------------- */
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.hero-left{
+    width: 60%;
+}
+
+.hero-section .hero-left h4{
+    /* color: #B9FF66; */
+    font-weight: lighter;
+    font-size: 30px;
+}
+.hero-section .hero-left p{
+    /* color: #B9FF66; */
+    line-height: 20px;
+    /* font-weight: lighter; */
+    font-size: 15px;
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+.hero-section .hero-left button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+/* -----------------------------------------------------------------------------------------------
+ */
+
+ .below-hero{
+    margin: 50px 35px;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+ }
+ .below-hero h1{
+    
+    margin-right: 20px;
+    background-color: #B9FF66;
+ }
